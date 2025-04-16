@@ -4,10 +4,14 @@ import React,{useState} from "react";
 const Budget =()=>{
 
     const items = [
-        { name: "Item A", value: 80 },
-        { name: "Item B", value: 120 },
-        { name: "Item C", value: 60 },
-        { name: "Item D", value: 150 },
+        { name: "Item A", value: 20 },
+        { name: "Item B", value: 10 },
+        { name: "Item C", value: 30 },
+        { name: "Item D", value: 5 },
+        { name: "Item D", value: 15 },
+        { name: "Item D", value: 50 },
+        { name: "Item D", value: 80 },
+
       ]; 
 let [cost,setvalue] = useState(0)
 
